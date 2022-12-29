@@ -13,9 +13,11 @@ user@host:~# cat /usr/lib/firefox-esr/distribution/policies.json
    "3rdparty": {
       "Extensions": {
         "uBlock0@raymondhill.net": {
+          "__comment": "Disable about:config access",
           "userSettings": [
             [ "colorBlindFriendly", "true" ]
           ],
+          "__comment": "Define uBlock Origin filter's rules",
           "toOverwrite": {
             "filters": [
               "! To add to ublock rules",
