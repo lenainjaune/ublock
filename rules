@@ -1,4 +1,13 @@
 ! To add to ublock rules
+
+! Supprimer la popup 'Avant de continuer de Google'",
+! https://www.malekal.com/comment-supprimer-la-popup-avant-de-continuer-de-google/
+! https://blogmotion.fr/internet/popup-cookie-google-bloquer-18526
+! https://gist.github.com/hongar/2a7c416c6d049fb5891a5577a424e56d
+! minimum pour vieux pc : https://www.nordicnode.com/remove-the-google-cookie-consent-dialog-with-ublock/
+google.*##.jw8mI
+google.*##.vUd4jb
+
 ! Comment supprimer la popup Connectez-vous à Youtube
 ! https://www.malekal.com/comment-supprimer-la-popup-connectez-vous-a-youtube/
 www.youtube.com###dialog
